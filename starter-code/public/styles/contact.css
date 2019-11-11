@@ -1,0 +1,75 @@
+.title-contact {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding-top: 190px;
+    color: lightcoral;
+}
+
+.container-contact {
+    text-align: center;
+    height: 700px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    padding: 10px
+}
+
+.slider-contact {
+    width: 400px;
+    overflow: hidden;
+    margin: 30px;
+
+}
+
+.slides-contact {
+    width: calc(400px * 4);
+    animation: glisse 30s infinite;
+    align-content: center
+}
+
+.slide-contact {
+    float: left;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0px)
+    }
+
+    10% {
+        transform: translateX(0px)
+    }
+
+    25% {
+        transform: translateX(-400px)
+    }
+
+    35% {
+        transform: translateX(-400px)
+    }
+
+    50% {
+        transform: translateX(-800px)
+    }
+
+    60% {
+        transform: translateX(-800px)
+    }
+
+    75% {
+        transform: translateX(-1200px)
+    }
+
+    85% {
+        transform: translateX(-1200px)
+    }
+
+    100% {
+        transform: translateX(0px)
+    }
+}

@@ -1,0 +1,42 @@
+.title-country {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: lightcoral;
+    margin-top: 50px
+}
+
+.slide-description {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 20px
+}
+
+.hiking-country {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px
+}
+
+
+.rencontre-country {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px
+}
+
+.food-country {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px
+}
+
+.title-activity {
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline
+}
